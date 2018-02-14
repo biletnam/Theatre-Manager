@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>750</x>
+      <y>190</y>
+      <w>190</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Theatre Screen
+--
+
++ PlayTab : Tab
++ TicketsTab : Tab
++ PlayBox : ListBox
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>580</x>
+      <y>470</y>
+      <w>240</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>TicketTab
+--
++ customerName : TextBox
++ seatingBox : Drop Down Box
++ seatRowField : Drop Down Box
++ seatNumberField : Drop Down Box
++ ticket_confirmButton : Button
++ ticket_deleteButton : Button
+--
+
+- btnConfirmTicket : void
+- btnDeletePlay : void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>840</x>
+      <y>470</y>
+      <w>200</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>PlayTab
+--
++ nameField : TextBox
++ StartDateField : DatePicker
++ EndDateField : DatePicker
++ Upper Circle Price : TextBox
++ Dress Circle Price : TextBox
++ Stall Price : TextBox
++ confirmButton : Button
++ deleteButton : Button
+--
+
+- btnConfirmPlay : void
+- btnDeletePlay : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>770</x>
+      <y>300</y>
+      <w>30</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;170.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>910</x>
+      <y>300</y>
+      <w>30</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;170.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
